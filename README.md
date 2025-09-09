@@ -10,7 +10,7 @@
 - Course Time(Classroom):
 Monday 09:10–10:00 (R60104)
 Tuesday 15:10–17:00 (R1102)
--Instructor: [Yu-Feng Huang](https://github.com/yfhuang)  
+- Instructor: [Yu-Feng Huang](https://github.com/yfhuang)  
 
 ## 👤 Student Information
 - Student: 鄭佳恩
