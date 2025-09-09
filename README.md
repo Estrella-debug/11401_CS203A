@@ -19,8 +19,8 @@ Tuesday 15:10–17:00 (R1102)
 
 |      Level        | School   |
 |-------------------|----------|
-| Elementary School | 上智國小 |
-| Junior High School| 二重國中 |
-| Senior High School| 竹東高中 |
+| Elementary School | 上館國小 |
+| Junior High School| 東泰國中 |
+| Senior High School| 東泰高中 |
 ## 📂 Course Description
 This repository is primarily dedicated to documenting my learning process and assignments for **CS203A Data Structures** I will continue updating it with lecture notes, code examples, and practice exercises in the future.  
