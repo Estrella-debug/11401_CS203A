@@ -20,7 +20,6 @@
 | Start Address       | 0x...B81450 | 0x...B81450 |
 | End Address         | 0x...B814EC | 0x...B8158C |
 | Each integer takes  | 4 bytes     | 4 bytes     |
-
   - Understand how arrays are stored in contiguous memory
   - Observe memory layout before and after realloc()
   - Verify if the array was moved during resizing
