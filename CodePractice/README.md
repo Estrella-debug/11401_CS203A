@@ -5,7 +5,7 @@
 ### Practice I: Code Review and Refinement
 - Review the [Practice_Array_1](Array_1.c).
 - Refactor and complete the code to improve safety, readability, and correctness.
-  - Add free
+  - Add Header files, main(), error checking for memory allocation, memory deallocation
 
 ### Practice II: Observing Array Behavior
 - Use the [Example C code](Example_Array.c) to study memory allocation with `malloc` and `realloc`.
