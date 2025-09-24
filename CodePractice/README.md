@@ -20,8 +20,8 @@
 | Start Address       | 0x...B81450 | 0x...B81450 |
 | End Address         | 0x...B814EC | 0x...B8158C |
 | Each integer takes  | 4 bytes     | 4 bytes     |
-    - Understand how arrays are stored in contiguous memory
-    - Observe memory layout before and after realloc()
-    - Verify if the array was moved during resizing
+  - Understand how arrays are stored in contiguous memory
+  - Observe memory layout before and after realloc()
+  - Verify if the array was moved during resizing
 - Extend this concept to 2D, 3D, or higher-dimensional arrays to explore how memory is allocated for multidimensional arrays.
 - Execute the binary code multiple times to observe the memory locations during the initial allocation with malloc and subsequent expansion with realloc.
