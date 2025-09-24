@@ -17,7 +17,7 @@
   - Observe memory layout before and after realloc()
   - Verify if the array was moved during resizing
 
-|                     | Before      | after       |
+|                     | Before      | After       |
 |---------------------|-------------|-------------|
 | Size                | 10 integers | 20 integers |
 | Start Address       | 0x...B81450 | 0x...B81450 |
