@@ -3,7 +3,7 @@
 ## Array
 
 ### Practice I: Code Review and Refinement
-- Review the [practice_array_1](array_1.c).
+- Review the [practice_array_1](Array_1.c).
 - Refactor and complete the code to improve safety, readability, and correctness.
   - Add free
 
