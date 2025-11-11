@@ -132,7 +132,7 @@ Time complexity describes how execution time scales with the input size $n$.
 
 ## Space Complexity
 
-* **Space Complexity:** **O(n)**
+* **Space Complexity:** ***O(n)***
     * **Explanation:** The space required to store $n$ elements is directly proportional to $n$.
-* **Auxiliary Space:** **O(1)**
+* **Auxiliary Space:** ***O(1)***
     * **Explanation:** The extra space used by auxiliary variables (like loop counters or temporary pointers) is constant and does not depend on the input size $n$.
