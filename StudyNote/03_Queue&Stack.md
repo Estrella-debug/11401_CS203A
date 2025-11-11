@@ -25,7 +25,7 @@
 ### Stack
 ![Stack](./image/Stack.png)
 
-## Abstract Data Type (ADT)
+## Abstract Data Type 
 
 Both Stack and Queue are **Abstract Data Types (ADTs)**, meaning they are defined by their logical behavior and the set of operations they support, independent of their underlying implementation (Array or Linked List).
 
