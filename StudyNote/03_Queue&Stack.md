@@ -60,7 +60,7 @@ Time complexity for the primary operations in typical implementations.
 
 ## Space Complexity
 
-* **Space Complexity (Total):** **O(n)**
+* **Space Complexity (Total):** ***O(n)***
     * **Explanation:** The space required to store $n$ elements for both Stack and Queue is directly proportional to the number of elements stored.
-* **Auxiliary Space:** **O(1)**
+* **Auxiliary Space:** ***O(1)***
     * **Explanation:** The extra space used by auxiliary variables (e.g., `top` index, `front`/`rear` pointers, or temporary variables) is constant and does not depend on the input size $n$.
