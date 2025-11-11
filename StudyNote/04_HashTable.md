@@ -8,4 +8,4 @@
 - Hash tables are ideal for fast data retrieval due to this efficiency.
 
 ## Visualization
-[Hash Table Data Structure - Basics | Animation | Visualization (Depth First)](http://www.youtube.com/watch?v=Wct0Z2g9XgU)
+[Hash Table Data Structure - Basics | Animation | Visualization](http://www.youtube.com/watch?v=Wct0Z2g9XgU)
