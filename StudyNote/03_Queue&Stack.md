@@ -19,6 +19,7 @@
     - **IsEmpty:** Check if the stack contains any elements.
 
 ## Visualization
+[Introduction to Stacks and Queues (Data Structures & Algorithms #12)]([http://www.youtube.com/watch?v=Wct0Z2g9XgU](https://youtu.be/A3ZUpyrnCbM?si=2GXrHJfcMjhZGKr2))
 ### Queue
 ![Queue](./image/Queue.png)
 ### Stack
