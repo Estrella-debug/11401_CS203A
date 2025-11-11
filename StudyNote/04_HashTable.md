@@ -9,3 +9,5 @@
 
 ## Visualization
 [Hash Table Data Structure - Basics | Animation | Visualization](http://www.youtube.com/watch?v=Wct0Z2g9XgU)
+
+![Hash Table](./image/HashTable.png)
