@@ -4,6 +4,7 @@
 **Array:** A contiguous block of memory that stores elements of the same data type. Arrays provide O(1) random access to elements by index, but insertion and deletion operations in the middle are costly O(n) due to the need to shift elements.
 
 ## Visualization
+[Deep Dive into the Array Data Structure](https://youtu.be/VVZTVHuVSqw?si=QY5Fp9FGSi280zNh)
 
 ![Array](./image/Array.png)
 
