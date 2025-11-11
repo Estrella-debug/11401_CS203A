@@ -19,6 +19,9 @@ An Abstract Data Type fundamentally specifies:
 * Lists
 * Sets
 
+## Visualization
+[【資料結構】第一講：Data Abstraction and bag #2 Abstract data types](https://youtu.be/FgVOhDfbT-8?si=1DdxVuUd7Qbu4J2l)
+
 ##  Examples of ADTs in Libraries
 
 ### 1. Standard Template Library (STL) in C++
