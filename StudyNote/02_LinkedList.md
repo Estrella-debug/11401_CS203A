@@ -5,6 +5,7 @@
 
 ## Visualization
 [Learn Linked Lists in 13 minutes 🔗](https://youtu.be/N6dOwBde7-M?si=KtX3MxpE8041VqX8)
+
 ![Linked List](./image/LinkedList.png)
 
 ## Abstract Data Type
