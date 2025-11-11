@@ -19,3 +19,23 @@ A linked list is an ADT defined by the following core operations.
 | **Update** | Modify the value of a node at a specific position (requires prior search/access). | O(1) (Node is known) / O(n) (By index) |
 
 Linked lists are crucial for tasks requiring **dynamic memory usage** and **frequent insertion/deletion** operations, offering advantages over fixed-size arrays.
+
+## Time Complexity
+
+Time complexity describes how execution time scales with the input size $n$.
+
+| Operation | Best Case | Average Case | Worst Case | Explanation |
+| :--- | :--- | :--- | :--- | :--- |
+| **Access/Search** (by value/index) | O(1) | O(n) | O(n) | Must traverse sequentially until the element is found or the end is reached. |
+| **Insert** (at Head) | O(1) | O(1) | O(1) | Only requires updating the head pointer. |
+| **Insert** (at Tail, *if tail pointer is maintained*) | O(1) | O(1) | O(1) | Requires updating the tail node's `next` pointer and the tail pointer. |
+| **Insert** (in Middle, *node is known*) | O(1) | O(1) | O(1) | Only pointer redirection is needed. |
+| **Delete** (Node is known) | O(1) | O(1) | O(1) | Requires redirecting the *previous* node's pointer (Note: **Singly** lists often require $O(n)$ to find the previous node). |
+| **Traversal** | O(n) | O(n) | O(n) | Must visit all $n$ nodes. |
+
+## Space Complexity
+
+* **Space Complexity (Total):** **O(n)**
+    * **Explanation:** The space required to store $n$ nodes is directly proportional to $n$. Each node stores the data plus one or more pointers/references.
+* **Auxiliary Space:** **O(1)**
+    * **Explanation:** Operations typically require only a fixed, constant amount of extra space (e.g., for temporary pointers like `current` or `new_node`) regardless of the list size $n$.
