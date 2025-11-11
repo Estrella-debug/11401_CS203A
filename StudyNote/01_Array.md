@@ -8,7 +8,7 @@
 
 ![Array](./image/Array.png)
 
-## Abstract Data Type (ADT)
+## Abstract Data Type 
 An array is an ADT that supports the collection of elements identified by an index.
 
 | Operation | Description | Time Complexity |
