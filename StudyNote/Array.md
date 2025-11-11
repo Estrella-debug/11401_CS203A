@@ -5,4 +5,5 @@
 
 ##  Visualization
 
-![Array](11401_CS203A/StudyNote/image/Array.png)
+![Array](./image/Array.png)
+
