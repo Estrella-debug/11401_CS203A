@@ -4,6 +4,7 @@
 **Linked List:** A linear sequence of nodes where elements are stored in non-contiguous memory locations. Each node comprises two parts: a data field (value) and a pointer/reference field that links to the next node in the sequence. While traversal is sequential O(n), insertion or deletion (when the preceding node is known) is highly efficient at O(1).
 
 ## Visualization
+[Learn Linked Lists in 13 minutes 🔗](https://youtu.be/N6dOwBde7-M?si=KtX3MxpE8041VqX8)
 ![Linked List](./image/LinkedList.png)
 
 ## Abstract Data Type
