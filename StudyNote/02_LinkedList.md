@@ -35,7 +35,7 @@ Time complexity describes how execution time scales with the input size $n$.
 
 ## Space Complexity
 
-* **Space Complexity (Total):** **O(n)**
+* **Space Complexity (Total):** ***O(n)***
     * **Explanation:** The space required to store $n$ nodes is directly proportional to $n$. Each node stores the data plus one or more pointers/references.
-* **Auxiliary Space:** **O(1)**
+* **Auxiliary Space:** ***O(1)***
     * **Explanation:** Operations typically require only a fixed, constant amount of extra space (e.g., for temporary pointers like `current` or `new_node`) regardless of the list size $n$.
