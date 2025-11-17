@@ -9,7 +9,7 @@
    Development History:
     - 2025/11/11: Initial implementation
 
-   Developer: Yu-Feng Huang <yfhuang@saturn.yzu.edu.tw>
+   Developer: 鄭佳恩 <s1131420@mail.yzu.edu.tw>
  */
 #include <string>
 
@@ -19,7 +19,16 @@ int myHashInt(int key, int m) {
 }
 
 int myHashString(const std::string& str, int m) {
+    // 使用一個質數作為乘數，例如 p = 31 (for lowercase English letters)
+    const int p = 31; 
     unsigned long hash = 0;
-    // TODO: replace with your own design
-    return static_cast<int>(hash % m);  // basic division method
+    
+    // 實作 Polynomial Rolling Hash
+    for (char c : str) {
+        // 將字元c的ASCII值加入，並進行乘法和取模運算
+        // 確保結果在 [0, m-1] 範圍內
+        hash = (hash * p + c) % m; 
+    }
+
+    return static_cast<int>(hash); // 最終的 hash 值已經在 [0, m-1] 範圍內
 }
