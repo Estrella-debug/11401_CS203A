@@ -19,7 +19,7 @@ int myHashInt(int key, int m) {
 }
 
 int myHashString(const std::string& str, int m) {
-    // 使用一個質數作為乘數，例如 p = 31 (for lowercase English letters)
+
     const int p = 31; 
     unsigned long hash = 0;
     
