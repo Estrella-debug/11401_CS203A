@@ -1,8 +1,8 @@
 /*
    ========================================
-   hash_fn.hpp — declare your hash functions
+   hash_fn.hpp 
    ========================================
-
+   
    Description:
     This file contains the hash functions for integer and string keys.
 

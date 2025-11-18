@@ -8,9 +8,6 @@
    and string keys using different table sizes. It utilizes the hash functions
    defined in "hash_fn.c".
 
-   Development History:
-    - 2025/11/11: Initial implementation
-
    Developer: 鄭佳恩 <s1131420@mail.yzu.edu.tw>
  */
 
