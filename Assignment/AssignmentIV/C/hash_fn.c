@@ -11,12 +11,19 @@
 #include <stdio.h>
 
 int myHashInt(int key, int m) {
-    // TODO: replace with your own design
-    return key % m;  // division method example
+    if (key < 0) {
+        key = -key;
+    }
+    return key % m;
 }
 
 int myHashString(const char* str, int m) {
+    const int p = 31;
     unsigned long hash = 0;
-    // TODO: replace with your own design
-    return (int)(hash % m); // basic division method
+    
+    for (const char *ptr = str; *ptr != '\0'; ptr++) {
+        hash = (hash * p + *ptr) % m;
+    }
+
+    return (int)hash;
 }
