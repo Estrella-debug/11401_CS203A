@@ -9,11 +9,15 @@
    Developer: 鄭佳恩 <s1131420@mail.yzu.edu.tw>
  */
 #include <stdio.h>
+#include <math.h>
 
 int myHashInt(int key, int m) {
-    if (key < 0) {
-        key = -key;
-    }
+    /*
+    const double A = (sqrt(5.0) - 1.0) / 2.0;
+    double val = (double)key * A;
+    val = val - floor(val);
+    return (int)(m * val);
+    */
     return key % m;
 }
 
