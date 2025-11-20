@@ -10,23 +10,26 @@
    Developer: 鄭佳恩 <s1131420@mail.yzu.edu.tw>
  */
 #include <string>
+#include <cmath>
 
 int myHashInt(int key, int m) {
-    // TODO: replace with your own design
-    return key % m;  // basic division method
+    /*
+    double A = (sqrt(5)-1)/2; 
+    double val = key * A;
+    val = val - (long)val; 
+    return (int)(m * val); 
+    */
+    return key % m; 
 }
 
 int myHashString(const std::string& str, int m) {
 
     const int p = 31; 
     unsigned long hash = 0;
-    
-    // 實作 Polynomial Rolling Hash
+ 
     for (char c : str) {
-        // 將字元c的ASCII值加入，並進行乘法和取模運算
-        // 確保結果在 [0, m-1] 範圍內
         hash = (hash * p + c) % m; 
     }
 
-    return static_cast<int>(hash); // 最終的 hash 值已經在 [0, m-1] 範圍內
+    return static_cast<int>(hash);
 }
