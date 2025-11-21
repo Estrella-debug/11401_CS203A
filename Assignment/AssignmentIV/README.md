@@ -10,28 +10,34 @@ Email: [s1131420@mail.yzu.edu.tw]
 ## My Hash Function
 ### Integer Keys 
 - Formula / pseudocode:
-  ```text
-  [int myHashInt(int key, int m) {
-    return key % m; 
-    }
-  ]
+  ```c
+  int myHashInt(int key, int m) {
+    /*
+    const double A = (sqrt(5.0) - 1.0) / 2.0;
+    double val = (double)key * A;
+    val = val - floor(val);
+    return (int)(m * val);
+    */
+    return key % m;
+  }
+  
   ```
 - Rationale: [I tried using multiplication, but since it involves floating-point operations, it's slower than division. So I ultimately stuck with the division method because it offers extremely high computational efficiency. To reduce collisions and ensure keys are evenly distributed.]
 
 ### Non-integer Keys
 - Formula / pseudocode:
-  ```text
-  [int myHashString(const std::string& str, int m) {
-    const int p = 31; 
+  ```c
+  iint myHashString(const char* str, int m) {
+    const int p = 31;
     unsigned long hash = 0;
-
-    for (char c : str) {
-        hash = (hash * p + c) % m; 
+    
+    for (const char *ptr = str; *ptr != '\0'; ptr++) {
+        hash = (hash * p + *ptr) % m;
     }
 
-    return static_cast<int>(hash);
+    return (int)hash;
   }
-  ]
+  
   ```
 - Rationale: [Polynomial hashing is employed to address the issue of string order. By assigning different weights to characters at different positions within a string, it effectively distinguishes similar strings with differing orders, thereby significantly reducing collisions.]
 
