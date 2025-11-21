@@ -13,7 +13,8 @@ Email: [s1131420@mail.yzu.edu.tw]
   ```text
   [int myHashInt(int key, int m) {
     return key % m; 
-}]
+    }
+  ]
   ```
 - Rationale: [I tried using multiplication, but since it involves floating-point operations, it's slower than division. So I ultimately stuck with the division method because it offers extremely high computational efficiency. To reduce collisions and ensure keys are evenly distributed.]
 
@@ -29,7 +30,8 @@ Email: [s1131420@mail.yzu.edu.tw]
     }
 
     return static_cast<int>(hash);
-}]
+  }
+  ]
   ```
 - Rationale: [Polynomial hashing is employed to address the issue of string order. By assigning different weights to characters at different positions within a string, it effectively distinguishes similar strings with differing orders, thereby significantly reducing collisions.]
 
