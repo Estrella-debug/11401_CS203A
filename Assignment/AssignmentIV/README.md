@@ -11,16 +11,27 @@ Email: [s1131420@mail.yzu.edu.tw]
 ### Integer Keys 
 - Formula / pseudocode:
   ```text
-  [Your implementation here]
+  [int myHashInt(int key, int m) {
+    return key % m; 
+}]
   ```
-- Rationale: [Explain your design choices and how they minimize collisions.]
+- Rationale: [I tried using multiplication, but since it involves floating-point operations, it's slower than division. So I ultimately stuck with the division method because it offers extremely high computational efficiency. To reduce collisions and ensure keys are evenly distributed.]
 
 ### Non-integer Keys
 - Formula / pseudocode:
   ```text
-  [Your implementation here]
+  [int myHashString(const std::string& str, int m) {
+    const int p = 31; 
+    unsigned long hash = 0;
+
+    for (char c : str) {
+        hash = (hash * p + c) % m; 
+    }
+
+    return static_cast<int>(hash);
+}]
   ```
-- Rationale: [Explain your approach and its effectiveness for non-integer keys.]
+- Rationale: [Polynomial hashing is employed to address the issue of string order. By assigning different weights to characters at different positions within a string, it effectively distinguishes similar strings with differing orders, thereby significantly reducing collisions.]
 
 ## Experimental Setup
 - Table sizes tested (m): 10, 11, 37
