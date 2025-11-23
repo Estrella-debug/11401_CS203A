@@ -1,8 +1,9 @@
 # Homework Assignment IV: Hash Function Design & Observation (C/C++ Version)
 
-This assignment focuses on the design and observation of hash functions using C/C++. 
-Students are expected to implement and analyze the behavior of hash functions, 
+- This assignment focuses on the design and observation of hash functions using C/C++. 
+- I am expected to implement and analyze the behavior of hash functions, 
 evaluate their efficiency, and understand their applications in computer science.
+- I am using the Windows platform build profile.
 
 Developer: [鄭佳恩]
 Email: [s1131420@mail.yzu.edu.tw]
