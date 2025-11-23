@@ -1,4 +1,9 @@
 # Connect to GitHub with VSCode
+In fact, I simply searched on YouTube for "how to connect to GitHub using VSCode".
+- This is the video I used.
+[程式與網頁開發者必備技能！Git 和 GitHub 零基礎快速上手，輕鬆掌握版本控制的要訣！](https://youtu.be/FKXRiAiQFiY?si=8dLDZhobX8cBBlMZ)
+
+I believe it is important to make good use of resources. Following videos is much more efficient for me than following instructions from text.
 
 ## Prerequisites
 Before you begin, ensure you have the following:
@@ -14,7 +19,7 @@ Before you begin, ensure you have the following:
     - Search for "GitHub Pull Requests and Issues" and install the extension.
 
 2. **Sign in to GitHub**
-    - Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
+    - Open the Command Palette (`Ctrl+Shift+P`).
     - Type `GitHub: Sign in` and select the option.
     - Follow the prompts to authenticate with your GitHub account.
 
