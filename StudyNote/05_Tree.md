@@ -1,8 +1,7 @@
 # Tree Notes
 
 ## Description
-
-### 2.1 What is a Tree?
+### What is a Tree?
 A **Tree** is a hierarchical structure consisting of nodes connected by edges.
 * **Key Constraint**: It must be **acyclic** (no loops).
 * **Components**:
@@ -11,13 +10,15 @@ A **Tree** is a hierarchical structure consisting of nodes connected by edges.
     * **Leaf**: A node with no children.
 * **Real-world Analogy**: File system directories, HTML DOM structure.
 
-### 2.2 Binary Tree (BT)
+### Binary Tree (BT)
 A specific type of tree where every node has **at most two children**.
 * **Degree**: $\le 2$ (0, 1, or 2).
 * **Structure**: Distinguished strictly as **Left Child** and **Right Child**.
 
-### 2.3 Binary Search Tree (BST)
-A Binary Tree optimized for searching. It enforces a strict ordering property:
-> **Rule**: $\forall$ Node $N$, values in the **Left Subtree** $< N <$ values in the **Right Subtree**.
+### Binary Search Tree (BST)
+### Binary Search Tree (BST)
+A binary tree where for **every node `N`**:
 
----
+* All keys in `N->left` subtree are **less than** `N->key`.
+* All keys in `N->right` subtree are **greater than** `N->key`.
+* Both left and right subtrees must also be BSTs themselves.
