@@ -16,7 +16,6 @@ A specific type of tree where every node has **at most two children**.
 * **Structure**: Distinguished strictly as **Left Child** and **Right Child**.
 
 ### Binary Search Tree (BST)
-### Binary Search Tree (BST)
 A binary tree where for **every node `N`**:
 
 * All keys in `N->left` subtree are **less than** `N->key`.
