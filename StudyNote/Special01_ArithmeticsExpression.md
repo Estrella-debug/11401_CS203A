@@ -1,4 +1,4 @@
-# [Notes] Arithmetic Expressions: Stacks & Trees
+# Arithmetic Expressions: Stacks & Trees Notes
 
 These are my notes on processing math expressions using **Stacks** and **Trees**. The main focus is understanding how a computer actually interprets a calculation like `(3 + 5) * (2 - 4)`.
 
