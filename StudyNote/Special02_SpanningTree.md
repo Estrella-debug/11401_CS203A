@@ -125,3 +125,24 @@ int find(int x);
 
 // 2. Union: Merge the sets of x and y
 void unionSets(int x, int y);
+```
+### 5.2 Priority Queue (for Prim's)
+
+To implement Prim's, we need a Min-Heap:
+```cpp
+// Store pairs of (weight, vertex)
+priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+```
+
+### 5.3 Graph Representation
+
+* **Edge List**: Perfect for Kruskal's (easy to sort).
+* **Adjacency List**: Perfect for Prim's (easy to traverse neighbors).
+
+---
+## 6. Summary
+
+**Big Picture**: Spanning trees bridge the gap between the full complexity of graphs and the simple structure of trees. They provide the essential connectivity with minimal overhead.
+* **MST** solves optimization problems (min cost, min wire).
+* **Kruskal's** sorts edges (Global approach).
+* **Prim's** grows from a node (Local approach).
