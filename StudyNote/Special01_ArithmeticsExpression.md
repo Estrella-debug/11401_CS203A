@@ -57,7 +57,7 @@ The hierarchy does the talking—you have to solve the bottom children before yo
    / \ / \
   3  5 2  4
 
-  ---
+---
 
 ## 3. Prefix, Infix, Postfix: Three Notations, One Tree
 
