@@ -17,9 +17,6 @@ An expression is made up of two main things:
     * Binary: `+`, `-`, `*`, `/`
     * Unary: `-x` (negation), `sin(x)`
 
-> **⚠️ Important: Parentheses `()` are NOT part of the structure!**
-> Parentheses are just for humans or for temporary parsing. Once the expression is converted into a Tree or processed by a Stack, **the parentheses disappear** because the structure itself already defines the order.
-
 ### 1.2 Evaluation Rules
 
 How does the computer know what to solve first?
